@@ -40,12 +40,12 @@
       "tags": [],
       "implicitDependencies": ["appname"]
     },
-    "pihk-ui": {
+    "pn-ui": {
       "tags": []
     },
-    "pihk-ui-e2e": {
+    "pn-ui-e2e": {
       "tags": [],
-      "implicitDependencies": ["pihk-ui"]
+      "implicitDependencies": ["pn-ui"]
     }
   }
 }
