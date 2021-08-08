@@ -2,10 +2,12 @@ import styles from './app.module.css';
 
 import { ReactComponent as Logo } from './logo.svg';
 import star from './star.svg';
+import { PihkUi } from '@orgname/pihk-ui';
 
 export function App() {
   return (
     <div className={styles.app}>
+      <PihkUi test={false} />
       <header className="flex">
         <Logo width="75" height="75" />
         <h1>Welcome to appname!</h1>
